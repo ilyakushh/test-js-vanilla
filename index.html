@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Test App</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <div class="header__wrapper container">
+          <div class="header__description">
+            <p class="header__name">Меня зовут Александра Смит</p>
+            <h2 class="header__title">Я web-разработчик из города Москва</h2>
+            <div class="header__buttons">
+              <button class="header__btn_orange">Портфолио</button>
+              <button class="header__btn">Про меня</button>
+            </div>
+          </div>
+        </div>
+        <div class="header__menu_toggle">
+          <div class="menu__wrapper"></div>
+        </div>
+        <div class="header__links">
+          <p class="header__text">Социальные сети</p>
+          <div class="header__line"></div>
+          <div class="header__icons">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="header__link"
+              ><img src="/Github.svg" alt="Github" class="header__icon"
+            /></a>
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="header__link"
+              ><img src="/Instagram.svg" alt="Instagram" class="header__icon"
+            /></a>
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="header__link"
+              ><img src="/Facebook.svg" alt="Facebook" class="header__icon"
+            /></a>
+          </div>
+        </div>
+      </header>
+
+      <main class="main">
+        <div class="main__container container">
+          <section class="experience">
+            <p class="experience__header">Опыт</p>
+            <h3 class="experience__title">Чем я буду полезна</h3>
+            <div class="experience__wrapper">
+              <div class="work">
+                <h4 class="work__title">Образование</h4>
+                <div class="work__list">
+                  <div class="work__item">
+                    <div class="work__header">
+                      <div class="work__icon">
+                        <img
+                          src="/University.svg"
+                          alt="University"
+                          class="work__img"
+                        />
+                      </div>
+                      <div class="work__details">
+                        <h5 class="work__name">МГТУ им. Н. Э. Баумана</h5>
+                        <p class="work__info">
+                          Диплом магистра | Москва (2014-2020)
+                        </p>
+                      </div>
+                    </div>
+                    <p class="work__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+                  <div class="work__item">
+                    <div class="work__header">
+                      <div class="work__icon circle-image">
+                        <img
+                          src="/Courses.svg"
+                          alt="Courses"
+                          class="work__img"
+                        />
+                      </div>
+                      <div class="work__details">
+                        <h5 class="work__name">Udemy</h5>
+                        <p class="work__info">Курсы по Web-разработке</p>
+                      </div>
+                    </div>
+                    <p class="work__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="work">
+                <h4 class="work__title">Опыт работы</h4>
+                <div class="work__list">
+                  <div class="work__item">
+                    <div class="work__header">
+                      <div class="work__icon circle-image">
+                        <img
+                          src="/Developer.svg"
+                          alt="Developer"
+                          class="work__img"
+                        />
+                      </div>
+                      <div class="work__details">
+                        <h5 class="work__name">Front-End Developer</h5>
+                        <p class="work__info">EPAM | Москва (2018-2019)</p>
+                      </div>
+                    </div>
+                    <p class="work__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+                  <div class="work__item">
+                    <div class="work__header">
+                      <div class="work__icon circle-image">
+                        <img
+                          src="/designer.svg"
+                          alt="designer"
+                          class="work__img"
+                        />
+                      </div>
+                      <div class="work__details">
+                        <h5 class="work__name">UI/UX Designer</h5>
+                        <p class="work__info">Squad Team | Москва (2018)</p>
+                      </div>
+                    </div>
+                    <p class="work__description">
+                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                      sed do eiusmod tempor incididunt ut labore et dolore magna
+                      aliqua.Lorem ipsum dolor sit amet, consectetur adipiscing
+                      elit, sed do eiusmo.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <section class="contact">
+            <img src="/Photo.jpg" alt="Photo" class="contact__img" />
+            <div class="contact__content">
+              <p class="contact__intro-text">Контакты</p>
+              <h3 class="contact__title">Свяжитесь со мной</h3>
+              <h5 class="contact__subtitle">Любым удобным для вас способом:</h5>
+              <div class="contact__social-networks">
+                <a
+                  href="https://www.facebook.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact__link"
+                >
+                  <img
+                    src="/Facebook.svg"
+                    alt="Facebook"
+                    class="contact__icon"
+                  />
+                </a>
+                <a
+                  href="https://web.telegram.org/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact__link"
+                >
+                  <img
+                    src="/Telegram.svg"
+                    alt="Telegram"
+                    class="contact__icon"
+                  />
+                </a>
+                <a
+                  href="https://www.instagram.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="contact__link"
+                >
+                  <img
+                    src="/Instagram.svg"
+                    alt="Instagram"
+                    class="contact__icon"
+                  />
+                </a>
+              </div>
+              <h5 class="contact__subtitle">
+                Или оставьте ваши данные и я сама вам напишу:
+              </h5>
+              <form class="contact__form">
+                <div class="contact__form-group">
+                  <div class="contact__input-wrapper">
+                    <label class="contact__label"> Ваше имя </label>
+                    <input
+                      type="text"
+                      class="contact__input"
+                      id="name"
+                      name="name"
+                    />
+                    <span id="nameError" class="error-message"></span>
+                  </div>
+                  <div class="contact__input-wrapper">
+                    <label class="contact__label"> Ваша почта </label>
+                    <input
+                      type="text"
+                      name="email"
+                      class="contact__input"
+                      id="email"
+                    />
+                    <span id="emailError" class="error-message"></span>
+                  </div>
+                </div>
+                <div class="contact__input-wrapper input-message">
+                  <label class="contact__label">Ваше сообщение</label>
+                  <textarea
+                    name="message"
+                    class="contact__input-textarea"
+                    id="message"
+                    name="message"
+                  ></textarea>
+                </div>
+                <div class="contact__submit">
+                  <button type="submit" class="contact__button">
+                    Отправить сообщение
+                  </button>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+      </main>
+      <div class="overlay"></div>
+      <div class="sidenav">
+        <nav class="sidenav__wrapper">
+          <img src="/Close.svg" alt="close" class="sidenav__close-icon" />
+          <ul class="sidenav__list">
+            <li class="sidenav__item" id="experience">
+              <a href="#">МОЙ ОПЫТ</a>
+            </li>
+            <li class="sidenav__item" id="contact"><a href="#">КОНТАКТЫ</a></li>
+          </ul>
+          <div class="sidenav__social-networks">
+            <a
+              href="https://github.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img src="/Github.svg" alt="Github" class="sidenav__icon-link"
+            /></a>
+
+            <a
+              href="https://www.instagram.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="/Instagram.svg"
+                alt="Instagram"
+                class="sidenav__icon-link"
+            /></a>
+
+            <a
+              href="https://www.facebook.com/"
+              target="_blank"
+              rel="noopener noreferrer"
+              ><img
+                src="/Facebook.svg"
+                alt="Facebook"
+                class="sidenav__icon-link"
+            /></a>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>

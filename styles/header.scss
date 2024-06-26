@@ -1,0 +1,117 @@
+.header {
+  background-image: url("/Background.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  position: relative;
+
+  &__description {
+    padding-top: 206px;
+    max-width: 653px;
+    font-weight: bold;
+  }
+
+  &__name {
+    @include circle-left;
+  }
+
+  &__title {
+    margin-bottom: 25px;
+    margin-top: 9px;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 44px;
+  }
+
+  &__btn_orange {
+    @include button;
+  }
+
+  &__btn {
+    font-weight: bold;
+    font-size: 14px;
+  }
+
+  &__links {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    position: absolute;
+    top: 50%;
+    left: -9%;
+    transform: rotate(90deg) scale(-1, -1);
+  }
+
+  &__text {
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+  &__menu_toggle {
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+    height: 21px;
+    width: 30px;
+    position: absolute;
+    cursor: pointer;
+    top: 20px;
+    right: 30px;
+    & .menu__wrapper {
+      position: relative;
+      height: 100%;
+      &::before {
+        content: "";
+        background-color: #000;
+        height: 3px;
+        width: 36px;
+        position: absolute;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  &__icons {
+    display: flex;
+    gap: 15px;
+  }
+
+  &__line {
+    height: 2px;
+    width: 70px;
+    background-color: #000;
+  }
+}
+
+.header__link .header__icon {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px) {
+  .header__links {
+    display: none;
+  }
+}
+
+@media (max-width: 680px) {
+  .header__title {
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 15px;
+    margin-bottom: 32px;
+  }
+}
+
+@media (max-width: 400px) {
+  .header {
+    background-image: url("/Background2.jpg");
+    background-position: 58%;
+    height: 640px;
+  }
+}
